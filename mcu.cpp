@@ -74,12 +74,18 @@ static void ayuda() {
 	printf("\nSoporte conocido para los siguientes entornos y gestores de ventanas:\n\n");
 	printf(" OpenBox\n Awesome\n Gnome\n KDE 5\n I3 \n\n");
 	printf("Opciones:\n\n");
-	printf(" -ao | Apagar OpenRC\n -as | Apagar Systemd\n -ag | Apagado generico (supuesto para funcionar en cualquier init)\n");
-	printf(" -ao | Reinciar OpenRC\n -as | Reinciar Systemd\n -ag | Reinicio generico (supuesto para funcionar en cualquier init)\n");
-	printf(" -cs | Cerrar sesión\n -b  | Bloquear la pantalla con xscreensaver\n -h  | Muestra este menú de ayuda\n");
-	printf(" -d  | Detecta y muestra el demonio de inicio\n\n\n");
+	printf(" -ao | Apagar OpenRC\n");
+	printf(" -as | Apagar Systemd\n");
+	printf(" -ag | Apagado generico (supuesto para funcionar en cualquier init)\n");
+	printf(" -ro | Reinciar OpenRC\n");
+	printf(" -rs | Reinciar Systemd\n");
+	printf(" -rg | Reinicio generico (supuesto para funcionar en cualquier init)\n");
+	printf(" -cs | Cerrar sesión\n");
+	printf(" -b  | Bloquear la pantalla con xscreensaver\n");
+	printf(" -d  | Detecta y muestra el demonio de inicio\n");
+	printf(" -h  | Muestra este menú de ayuda\n\n\n");
 	printf("Este programa ha sido escrito por Dani Artavia bajo los terminos de la licencia GPL\n");
-	printf("Gracias por usar MCU ;)\n\n");
+	printf("Gracias por usar MCU ;-)\n\n");
 }
 
 int main (int argc, char* argv[]) {
