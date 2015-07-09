@@ -29,9 +29,10 @@ static void reinicia_generico () {
 static void cierra_sesion () {
 	system("openbox --exit"); //Openbox
 	system("echo 'awesome.quit()' | awesome-client"); //Awesome
-	system("gnome-session-quit"); //Gnome
+	system("gnome-session-quit"); //Gnome?
 	system("DISPLAY=:0 qdbus org.kde.ksmserver /KSMServer logout 0 0 0"); //KDE 5 ?
 	system("i3exit logout"); //I3 ?
+	system("xfce4-session-logout --logout"); //XFCE4 ?
 }
 
 static void bloquea () {
